@@ -43,7 +43,7 @@ def merge_subtitles():
             '-i', video_file,
             '-vf', subtitle_filter,
             '-c:v', 'libx264',
-            '-crf', '14', 
+            '-crf', '16', 
             '-preset', 'fast', 
             '-c:a', 'copy',
             output_file
